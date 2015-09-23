@@ -6,7 +6,7 @@ app.set('views','./views');
 app.set('view engine','jade');
 
 app.get('/', function(req, res) {
-	res.render('jadedemo', {pageTitle:'Learning Jade', youAreUsingJad: true});
+	res.render('jadedemo', {pageTitle:'Learning Jade', youAreUsingJade: true});
 });
 
 http.createServer(app).listen(8000, function() {
