@@ -10,7 +10,7 @@
 			"type": "node",
 			// Workspace relative or absolute path to the program.
 			//"program": "./bin/www",
-			"program": "express-route-named.js",
+			"program": "express-route-organize.js",
 			// Automatically stop program after launch.
 			"stopOnEntry": false,
 			// Command line arguments passed to the program.
